@@ -1,0 +1,20 @@
+/**
+ * Ejercicio 1
+Escribe un programa que pida los datos de una serie de empleados que no son jefes, tantos
+como el usuario indique. También hay que pedir los datos de una serie de jefes que son, al
+mismo tiempo, empleados, tantos como el usuario indique. Una vez insertados todos los
+datos, hay que visualizarlos.
+De los empleados nos interesa: nombre y sueldo.
+De los jefes nos interesa: nombre, sueldo, título y nombre del departamento del que es jefe.
+ * @author yszee
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		Jefe jefe = new Jefe();
+		jefe.setTodoJefe("Pedro", 15, "Titulo", "nombre Departamento");
+
+	}
+
+}

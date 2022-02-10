@@ -1,0 +1,12 @@
+import java.awt.*;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class Main {
+
+	public static void main(String[] args) {
+		Pantalla pantalla = new Pantalla();
+		pantalla.main(args);
+	}
+
+}

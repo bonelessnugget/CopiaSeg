@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] valor = new int[23];
+		
+		
+		for (int i = 0; i<valor.length; i++) {
+			System.out.println(valor);
+		}
+
+	}
+
+}

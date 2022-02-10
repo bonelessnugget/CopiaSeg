@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Introduce el email");
+		Scanner teclado = new Scanner(System.in);
+		String email = teclado.nextLine();
+		String local = email.substring(0,email.indexOf("@"));
+		String dominio = email.substring(email.indexOf("@",email.length()));
+		
+	
+	}
+
+}

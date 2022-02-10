@@ -1,0 +1,43 @@
+/**
+ * Escribe un programa que pida los datos de una serie de empleados que no son jefes, tantos
+como el usuario indique. También hay que pedir los datos de una serie de jefes que son, al
+mismo tiempo, empleados, tantos como el usuario indique. Una vez insertados todos los
+datos, hay que visualizarlos.
+De los empleados nos interesa: nombre y sueldo.
+De los jefes nos interesa: nombre, sueldo, título y nombre del departamento del que es jefe.
+ * @author yszee
+ *
+ */
+public class Empleado {
+private String nombre;
+private float sueldo;
+public String getNombre() {
+	return nombre;
+}
+public void setNombre(String nombre) {
+	this.nombre = nombre;
+}
+public float getSueldo() {
+	return sueldo;
+}
+public void setSueldo(float sueldo) {
+	this.sueldo = sueldo;
+}
+
+public void setTodo(String nombre, float sueldo) {
+	this.nombre = nombre;
+	this.sueldo = sueldo;
+}
+
+public String imprimirTodo() {
+	String todoEmp;
+	
+	todoEmp = nombre;
+	todoEmp.concat();
+	
+	return todoEmp;
+}
+
+
+
+}

@@ -1,0 +1,4 @@
+git pull -- no se deshacen los cambios en ese caso hay que hacer un merge 
+git checkout -- deshace los cambios
+git add .
+git commit -m "comentario"

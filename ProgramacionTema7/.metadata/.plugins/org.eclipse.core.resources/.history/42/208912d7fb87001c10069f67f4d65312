@@ -1,0 +1,10 @@
+
+public interface A {
+int abcd = 3;
+String salam = "Parizer";
+String interfaz = "Sho no entiendo nada";
+
+public static void Mamaligutza() {
+	System.out.println(abcd+salam+interfaz);
+}
+}

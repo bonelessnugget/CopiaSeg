@@ -1,0 +1,6 @@
+
+public interface A {
+int abcd = 3;
+String salam = "Parizer";
+String interfaz = "Sho no entiendo nada";
+}

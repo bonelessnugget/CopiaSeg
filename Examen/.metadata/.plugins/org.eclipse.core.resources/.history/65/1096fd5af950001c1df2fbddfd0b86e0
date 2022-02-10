@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Introduce el email");
+		Scanner teclado = new Scanner(System.in);
+		String email = teclado.nextLine();
+		String local = email.substring(0,email.indexOf("@"));
+		String dominio = email.substring(email.indexOf("@",email.indexOf(email.length())));
+		boolean correcto = false;
+		System.out.println(local);
+		System.out.println(dominio);
+		while (correcto = false) {
+		if (local.startsWith(".") || local.endsWith(".")) {
+			System.out.println("no es bueno");
+			correcto = false;
+		}
+		for (int i = 0; i<email.length(); i++) {
+			if (email.charAt(i) != '@') {
+				System.out.println("Te dejaste el @ mamaguevo");
+				correcto = false;
+			}
+		}
+	
+	}
+
+}
+}
